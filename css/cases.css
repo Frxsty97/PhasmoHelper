@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-background: #352F44;
+  --primary-text: #FAF0E6;
+  --primary-btn: #5C5470;
+  --primary-overlay: #7f849c;
+  --secondary-overlay: #B9B4C7;
+}
+
+body {
+  background: var(--primary-background);
+  font-family: "PT Sans";
+}
+
+.navbar .nav-container {
+  display: grid;
+  grid-template-columns: 180px auto;
+  justify-content: unset;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  right: 0;
+  top: 0;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  position: center;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+.navbar nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+.navbar nav a {
+  color: var(--primary-text);
+  font-size: 1em;
+  padding: 0.1em 1em;
+  text-decoration: none;
+}
+.navbar nav ul.primary-nav {
+  margin: 0;
+  width: 100%;
+}
+.navbar nav li.current a {
+  font-weight: bold;
+}/*# sourceMappingURL=cases.css.map */

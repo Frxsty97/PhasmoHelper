@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-background: #1e1e2e;
-  --primary-text: #cdd6f4;
-  --primary-btn: #585b70;
+  --primary-background: #352F44;
+  --primary-text: #FAF0E6;
+  --primary-btn: #5C5470;
   --primary-overlay: #7f849c;
-  --secondary-overlay: #6c7086;
+  --secondary-overlay: #B9B4C7;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0em;
+  letter-spacing: 0.1em;
   display: grid;
   text-align: center;
   margin-top: 5em;
