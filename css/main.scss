@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-background: #1e1e2e;
+    --primary-text: #cdd6f4;
+    --primary-btn: #585b70;
+    --primary-overlay: #7f849c;
+    --secondary-overlay: #6c7086;
+}
+
+body {
+    background: var(--primary-background);
+    color: var(--primary-text);
+    font-family: 'PT Sans';
+}
+
+.hero {
+    a {
+        text-decoration: none;
+        color: var(--primary-text);
+    }
+    .container {
+        .welcome-banner {
+            font-size: 3em;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            display: grid;
+            text-align: center;
+            margin-top: 5em;
+        }
+        .hero-cta {
+            text-align: center;
+            font-size: 2em;
+            margin: 0 1em;
+            text-transform: uppercase;
+            
+        }
+        .new-case-btn {
+            background: var(--primary-btn);
+            border-radius: .5em;
+            padding: .5em 2em;
+            margin: 1em;
+
+            &:hover {
+                background: var(--secondary-overlay);
+            }
+        }
+
+        .ghost-wiki-btn {
+            background: var(--primary-btn);
+            border-radius: .5em;
+            padding: .5em 2em;
+            margin: 1em;
+
+            &:hover {
+                background: var(--secondary-overlay);
+            }
+        }
+
+        .tools-btn {
+            background: var(--primary-btn);
+            border-radius: .5em;
+            padding: .5em 2em;
+            margin: 1em;
+
+            &:hover {
+                background: var(--secondary-overlay);
+            }
+        }
+    }
+}
